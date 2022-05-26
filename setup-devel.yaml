@@ -32,7 +32,7 @@ services:
             UID: "$UID"
             GID: "$GID"
             UMASK: "$UMASK"
-        user: root
+        user: odoo
         entrypoint: autoaggregate
 
 networks:
